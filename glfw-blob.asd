@@ -8,5 +8,7 @@
               ((:darwin :x86) "libglfw.dylib.bodged" "x86/")
               ((:unix (:not :darwin) :x86-64) "libglfw.so.bodged" "x86_64/")
               ((:unix (:not :darwin) :x86) "libglfw.so.bodged" "x86/")
+              ((:unix (:not :darwin) :ppc64 :big-endian) "libglfw.so.bodged" "ppc64/")
+              ((:unix (:not :darwin) :ppc64 :little-endian) "libglfw.so.bodged" "ppc64le/")
               ((:windows :x86-64) "libglfw.dll.bodged" "x86_64/")
               ((:windows :x86) "libglfw.dll.bodged" "x86/")))
